@@ -1,0 +1,178 @@
+body {
+	margin-bottom: 25px;
+}
+
+.main-wrapper, .main-header, .projects, .project {
+	display: flex;
+	width:100%;
+}
+
+.main-wrapper, .projects, .project {
+	flex-wrap: wrap;
+}
+
+.main-header, .projects {
+    justify-content: space-between;
+}
+
+.main-header {
+    font-family: Quicksand, sans-serif;
+    color: #2d3c49;
+    padding-bottom: 23px;
+    border: 0 solid #7d97ad;
+    border-bottom-width: 5px;
+}
+
+.svg-logo {
+	fill:#02b3e4;
+	width: 50px;
+	height: 50px;
+}
+
+.name, .job {
+	line-height: .75em;
+	text-align: right;
+    margin: 0;
+}
+
+.name {
+	font-size: 38px;
+	font-weight: normal;
+	padding-bottom: 15px;
+}
+
+.job {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.main-image {
+	width: 100%;
+    padding: 23px 0 33px 0;
+}
+
+.portfolio-title {
+    font: 24px/.75em Montserrat, sans-serif;
+    color: #7d97ad;
+    margin: 0 0 0 12px;
+}
+
+.project {
+	align-items: center;
+    box-shadow: 1px 1px 5px #ca8;
+  	margin-top: 25px;
+}
+
+.project-name, .project-url, .project-image {
+	width: 100%;
+	font: 24px/.75em Montserrat, sans-serif;
+	text-align: center;
+}
+
+.project-name {
+    color: #2d3c49;
+    padding-top: 13px;
+ }
+
+.project-url {
+	font-size: 10px;
+    padding: 10px 0 10px 0;
+}
+
+.project-link {
+    /* text-decoration: none; */
+    color: #2d3c49;
+}
+
+@media screen and (min-width: 590px) {    /* increases paddings, logo-size and font-size */
+
+	.main-header {
+	    padding-bottom: 34px;
+	}
+
+	.svg-logo {
+	    width: 75px;
+	    height: 75px;
+	}
+
+	.name {
+	    font-size: 57px;
+	    padding-bottom: 23px;
+	}
+
+	.job {
+	    font-size: 21px;
+	}
+
+	.portfolio-title, .project-name {
+		font-size: 35px;
+	}
+
+    .project {
+	    width: 47.8%;    /* sets two projects per line */
+  	    margin-top: 30px;
+  	}
+
+	.project-name {
+		padding-top: 19px;
+	}
+
+	.project-url {
+		font-size: 15px;
+		padding: 15px 0 15px 0;
+    }
+
+	.main-image {
+	    padding: 34px 0 49px 0;
+    }
+}
+
+@media screen and (min-width: 1075px) {    /* increases paddings, logo-size and font-size */
+
+	.main-header {
+	    padding-bottom: 45px;
+	}
+
+	.svg-logo {
+	    width: 100px;
+	    height: 100px;
+	}
+
+	.name {
+	    font-size: 76px;
+	    padding-bottom: 30px;
+	}
+
+	.job {
+	    font-size: 28px;
+	}
+
+	.portfolio-title, .project-name {
+		font-size: 47px;
+	}
+
+    .project {
+	    width: 31.4%;    /* sets three projects per line */
+    }
+
+	.project-name {
+		padding-top: 25px;
+	}
+
+	.project-url {
+		font-size: 20px;
+		padding: 20px 0 20px 0;
+    }
+
+	.main-image {
+	    padding: 45px 0 65px 0;
+    }
+}
+
+@media screen and (min-width: 1275px) {    /* keeps main-wrapper's width fixed and increases margins */
+    .main-wrapper {
+    	width: 1275px;
+    	margin-left: auto;
+    	margin-right: auto;
+    }
+}
