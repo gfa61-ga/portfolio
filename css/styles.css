@@ -63,16 +63,19 @@
 
 .project {
     align-items: center;
-    box-shadow: 1px 1px 5px #ca8;
     margin-top: 25px;
 }
 
+.project-image,
 .project-name,
-.project-url,
-.project-image {
+.project-url {
     width: 100%;
     font: 24px/0.75em Montserrat, sans-serif;
     text-align: center;
+}
+
+.project-image {
+    box-shadow: 1px 1px 5px #ca8;
 }
 
 .project-name {
