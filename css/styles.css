@@ -99,16 +99,16 @@
 }
 
 .main-footer {
-    justify-content: center;
+    justify-content: flex-end;
     color: #02b3e4;
     margin-top: 30px;
     border: 0 solid #7d97ad;
-    border-top-width: 3px;
-    padding: 25px 0 20px;
+    border-top-width: 5px;
+    padding: 15px 0 10px;
 }
 
 .email {
-    font: bold 12px Quicksand, sans-serif;
+    font: normal 12px Quicksand, sans-serif;
     color: #2d3c49;
     padding: 6px 0 0 15px;
 }
@@ -160,7 +160,7 @@
     }
 
     .main-footer {
-        padding: 35px 0 25px;
+        padding: 25px 0 15px;
     }
 
     .email {
@@ -215,7 +215,7 @@
     }
 
     .main-footer {
-        padding: 45px 0 30px;
+        padding: 35px 0 20px;
     }
 
     .email {
